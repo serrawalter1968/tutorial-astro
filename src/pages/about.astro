@@ -28,10 +28,6 @@ const textCase = "uppercase";
 ---
 
 <style define:vars={{ skillColor, fontWeight, textCase }}>
-  h1 {
-    color: purple;
-    font-size: 4rem;
-  }
   .skill {
     color: var(--skillColor);
     font-weight: var(--fontWeight);
@@ -40,7 +36,6 @@ const textCase = "uppercase";
 </style>
 
 <BaseLayout pageTitle={pageTitle}>
-  <h1>{pageTitle}</h1>
   <h2>... ¡y mi nuevo sitio Astro!</h2>
 
   <p>
